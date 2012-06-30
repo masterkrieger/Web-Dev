@@ -1,0 +1,68 @@
+<html> <head> <title>JS Lesson 2 Homework</title> 
+
+
+<script language="JavaScript">
+<!-- hide me
+
+var temp = "";
+var image1 = 'images/thau.gif';
+var image2 = 'images/sky.gif';
+var image3 = 'images/monkey.gif'
+
+var user_name = prompt("What's your name", "");
+if (user_name == "") 
+{
+	user_name = "stranger";
+}
+
+// end hide -->
+</script>
+
+
+</head>
+<body>
+
+<table>
+<tr>
+<td><img src="images/back.gif"><img src="images/forth.gif"><img src="images/home.gif"></td>
+
+<td><img src="images/monkey.gif" name="brand_image"></td>
+</tr>
+
+<tr>
+<td><img width=470 src="images/location.gif"></td>
+</tr>
+</table>
+<h3>Browser Configuration</h3>
+<b>Welcome 
+
+<script language="JavaScript">
+<!-- hide me
+document.write(user_name);
+// end hide -->
+</script>
+</b>
+
+
+<p>Brand your browser by moving your mouse over the image below until you find one you like.  Then click on the image.<p>
+
+<a href="#" 
+onMouseOver="temp=image1; image1=image2; image2=image3; image3=temp; document.the_image.src=image1;" 
+onClick="document.brand_image.src=image1;">
+<img src="images/monkey.gif" name="the_image" border=0></a>
+
+<p>
+
+Your homework is to write a JavaScript program that behaves like this.  It's a bit tricky,
+so give yourself some time.  After you're through, view source on this page to see how I did it.
+
+<p>
+<FORM>
+<INPUT TYPE="button" VALUE="Back To Tutorial" onClick="history.back()">
+</FORM>
+</p>
+
+
+
+</body>
+</html>
