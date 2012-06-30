@@ -2,7 +2,6 @@
 	<title>Rotate to Point at Cursor</title>
 	<style>
 		* { vector-effect:non-scaling-stroke }
-		
 		line   { stroke:black; stroke-width:5px; stroke-linecap:round  }
 	</style>
 
